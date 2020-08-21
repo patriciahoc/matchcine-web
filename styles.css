@@ -89,7 +89,7 @@ body{
 .swap{
   padding-top: 32px;
   display:flex;
-  justify-content: space-between;  
+ 
 }
 
 .swap img{
@@ -116,4 +116,46 @@ body{
 .content .movie-match h2{
   margin-top: 32px;
   margin-bottom: auto;
+}
+.content .accessing{
+  justify-content: space-between; 
+  display:flex;
+  flex:1;
+}
+.content .accessing input{
+  width: 80%;
+	margin: 0 auto;
+  padding: 10px 10px 10px 26px;
+  border: 2px solid #ffeaa7;
+  border-radius: 28px 0 0 28px; 
+  outline: none;
+  transition: border-color .3s linear;
+  font-size: 22px;
+  font-family: "Ubuntu",sans-serif;
+  color: gray;
+}
+.content .accessing input::placeholder{
+  color: #b2bec3;
+}
+.content .accessing input:hover,
+.content .accessing input:focus{
+  border-color: #f1b036;
+}
+.content .accessing button{
+  background-color:#fdcb6e;
+	border-radius:0 28px 28px 0;
+	border: none #ffeaa7;
+  cursor:pointer;
+	font-size:17px;
+	padding:16px 32px;
+  text-decoration:none;
+  outline: none;
+  transition:background-color .3s linear;
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 700;
+  color: #7D6436;
+}
+.content .accessing button:hover,
+.content .accessing button:focus{
+  background-color: #ffeaa7;
 }
