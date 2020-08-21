@@ -96,3 +96,24 @@ body{
   height: 80px;  
   line-height: 0;
 }
+.content .match{
+  margin-bottom: 16px;
+}
+.content .match h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  margin: auto;
+}
+.content .match h2{
+  margin: 0;
+}
+.content .match p{
+  margin-bottom: 0;
+}
+.content .movie-match img{
+ width: 175px;
+}
+.content .movie-match h2{
+  margin-top: 32px;
+  margin-bottom: auto;
+}
