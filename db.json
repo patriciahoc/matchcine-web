@@ -1,0 +1,11 @@
+{
+  "filmes":[
+    {
+      "img":"../img/filme.jpg",
+      "nome":"Ta chovendo hamburguer",
+      "id":"bee1a812-b27c-48b5-8ab1-00b7450c4944",
+      "descricao":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at diam ac dui suscipit aliquam eu in nulla. Donec molestie venenatis mi eu pellentesque. Suspendisse ut efficitur justo. Nam tristique efficitur ipsum, vel pulvinar mi dignissim ut. Vivamus ullamcorper, elit vitae varius varius, augue elit accumsan neque, vitae pulvinar libero leo sit amet tortor. Integer sollicitudin cursus odio sit amet semper. Aliquam sed dignissim sem.",
+      "avaliacao": "7,5/10"
+    }
+  ]
+}
